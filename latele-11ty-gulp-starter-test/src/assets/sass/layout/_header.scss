@@ -4,6 +4,14 @@
 // ----------------------------------------------------
 .header {
   padding: 30px 45px;
-  background: #888;
+  background: $color-gray-light3;
 }
 
+.header__inner {
+  display        : flex;
+  flex-flow      : row nowrap;
+  justify-content: space-between;
+  width          : 100%;
+  max-width      : 1280px;
+  margin         : 0 auto;
+}
